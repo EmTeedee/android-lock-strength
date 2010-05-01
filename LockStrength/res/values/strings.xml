@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Lock Strength</string>
+  <string name="app_url">http://code.google.com/p/android-lock-strength/</string>
+  <string name="app_authors">Code by Rodrigo Damazio\nArt by Kahil Young</string>
+  <string name="app_license">Licensed under the Apache License, Version 2.0</string>
+
+  <string name="draw_prompt">Draw a pattern to see its strength:</string>
+
+  <string name="strength_weak">Weak</string>
+  <string name="strength_average">Average</string>
+  <string name="strength_good">Good</string>
+  <string name="strength_excellent">Excellent</string>
+
+  <string name="display_pattern">Display pattern</string>
+  <string name="tactile_feedback">Tactile feedback</string>
+  <string name="about">About</string>
+</resources>

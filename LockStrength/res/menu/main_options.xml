@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:enabled="true"
+        android:id="@+id/toggle_display"
+        android:title="@string/display_pattern"
+        android:visible="true"
+        android:checkable="true"
+        android:checked="true" />
+  <item android:enabled="true"
+        android:id="@+id/toggle_tactile"
+        android:title="@string/tactile_feedback"
+        android:visible="true"
+        android:checkable="true"
+        android:checked="true" />
+  <item android:enabled="true"
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:visible="true"
+        android:checkable="false" />
+</menu>
