@@ -3,6 +3,7 @@ package org.damazio.lockstrength;
 import java.util.List;
 
 import org.damazio.lockstrength.LockPatternView.Cell;
+import org.damazio.lockstrength.LockPatternView.DrawingColor;
 import org.damazio.lockstrength.LockStrengthMeter.Strength;
 
 import android.app.Activity;
@@ -39,6 +40,7 @@ public class LockStrengthMain extends Activity implements LockPatternView.OnPatt
     meter = new LockStrengthMeter();
 
     patternView.setOnPatternListener(this);
+    onPatternCleared();
   }
   
   @Override
@@ -150,7 +152,9 @@ public class LockStrengthMain extends Activity implements LockPatternView.OnPatt
    * @see org.damazio.lockstrength.LockPatternView.OnPatternListener#onPatternCleared
    */
   public void onPatternCleared() {
-    // Do nothing
+    resultView.setText("");
+    patternView.setDrawingColor(DrawingColor.RED);
+    resultView.setBackgroundResource(0);
   }
 
   /**
