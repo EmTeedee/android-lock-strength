@@ -6,8 +6,6 @@
     android:layout_height="fill_parent"
     >
 
-	<!-- TODO: Support landscape mode -->
-
     <TextView
         android:text="@string/draw_prompt"
 		android:textSize="20px"
@@ -25,7 +23,7 @@
 		android:id="@+id/result"
 		android:textSize="28px"
 		android:textStyle="bold"
-		android:textColor="#0000ff"
+		android:textColor="#000000"
 		android:gravity="center"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content" />
